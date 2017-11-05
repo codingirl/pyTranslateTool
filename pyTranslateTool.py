@@ -15,7 +15,7 @@ class Fanyi:
         self.header = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)\
             AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"}
-        self.langsDict = {"zh":"汉语", "en": "英语", "ru":"俄语", "fra": "法语","kor":"韩语"}
+        self.langsDict = {"zh": "汉语", "en": "英语", "jp": "日语", "ru": "俄语", "de": "德语", "fra": "法语", "kor": "韩语"}
         self.__query_string=''
         self.__lanDectParam=''
         self.__postData=''
